@@ -64,7 +64,7 @@ class NoSpoiler(telepot.helper.InlineUserHandler, telepot.helper.AnswererMixin):
 
     def on_chosen_inline_result(self, msg):
         # look that on_inline_query already answers, so no magic here
-        pass
+        self.sender.sendMessage(msg['query'])
 
 
 def main():
