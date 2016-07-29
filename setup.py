@@ -9,6 +9,7 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'aiohttp==0.22.4',
+    'PyYAML>=3.11',
     'chardet==2.3.0',
     'multidict==1.2.1',
     'telepot==8.3',
