@@ -13,7 +13,7 @@ install_requires = [
     'chardet==2.3.0',
     'multidict==1.2.1',
     'telepot==8.3',
-    'urllib3==1.9.1',
+    'urllib3==1.24.2',
 
 ]
 
